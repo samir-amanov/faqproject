@@ -12,7 +12,7 @@ public class DemoController {
 	@GetMapping("/faq")
 	public String sayHello(Model theModel) {
 		
-		return "index2";
+		return "index";
 	}
 	
 }
